@@ -1,0 +1,38 @@
+用户 orcl 密码123456
+
+
+可以在以下位置找到本次安装会话的日志:
+ C:\Program Files (x86)\Oracle\Inventory\logs\installActions2019-06-10_10-05-51PM.log
+ 
+ 
+ https://www.cnblogs.com/buxingzhelyd/p/7865194.html
+ 
+ system 创建用户
+ 
+  create user 用户名 identified by 口令[即密码]；
+  create user  wangjaidong identified by 123456
+  
+  alter user 用户名 identified by 口令[改变的口令];
+  
+  alter user test identified by 123456;
+  
+  
+  　一、创建
+
+　　sys;//系统管理员，拥有最高权限
+
+　　system;//本地管理员，次高权限
+
+　　scott;//普通用户，密码默认为tiger,默认未解锁
+
+　　oracle有三个默认的用户名和密码~
+　　1.用户名:sys密码:change_on_install
+　　2.用户名:system密码:manager
+　　3.用户名:scott密码:tiger
+　　二、登陆
+
+　　sqlplus / as sysdba;//登陆sys帐户
+
+　　sqlplus sys as sysdba;//同上
+
+　　sqlplus scott/tiger;//登陆普通用户scott

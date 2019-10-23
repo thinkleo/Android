@@ -1,0 +1,5 @@
+select * From view_priv_com_user
+
+select * from dawn_org_empl where dept_id = '4620' or  dept_id = '4621'
+
+select * from COM_DEPTSTAT where dept_name like '%æ≤≈‰%'
