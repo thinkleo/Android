@@ -1,0 +1,42 @@
+配置环境变量
+	git config --global user.name "wang.jiadong"
+	git config --global user.email "wang.jidong@163.com"
+
+创建SSH KEY：
+
+	ssh-keygen -t rsa -C "youremail@example.com"
+
+初始化git
+	git init
+
+添加文件
+	git add .
+	git add file_name.txt
+	git add \dir
+	git commit -m "note"
+
+本地版本
+	版本查询
+	git log
+	git reflog
+	
+	版本回退
+	git reset --hard HEAD^  回退到上一个版本
+	git reset --hard [commit_id 5位数字]
+	
+	cat filename.txt  查看文件内容
+	
+	git status 查看状态
+	
+	git diff HEAD -- filename.txt 查看工作区和版本库里面最新版本的区别
+	
+	git checkout -- filename.txt 下载版本库或缓存区（版本库或缓存区最近的）的文件到工作区
+	
+	git rm filename.txt  删除文件
+	
+远程库：
+	git remote add origin git@github.com:thinkleo/Android.git 添加远程库分支
+	git push -u origin master 将本地文件推送到远程库（-u 第一次推送master分支的所有内容）
+	git push origin master
+	
+	git clone git@github.com:thinkleo/Android.git 从远程库clone项目
