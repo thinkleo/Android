@@ -45,6 +45,6 @@
         git branch dev 创建dev分支
         git branch     查看分支，当前分支前用*标记
         git switch master 切换分支，切换到master
-        git switch -c wang 创建分支wang，并切换到分支wang
+        git switch -c wang 创建分支wang，并切换到分支wang（git checkout -b wang 不提倡使用，新版本提倡使用前者）
             	
 	
