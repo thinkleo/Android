@@ -40,3 +40,11 @@
 	git push origin master
 	
 	git clone git@github.com:thinkleo/Android.git 从远程库clone项目
+	
+  分支
+        git branch dev 创建dev分支
+        git branch     查看分支，当前分支前用*标记
+        git switch master 切换分支，切换到master
+        git switch -c wang 创建分支wang，并切换到分支wang
+            	
+	
