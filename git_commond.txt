@@ -47,6 +47,8 @@
         git switch master 切换分支，切换到master
         git switch -c wang 创建分支wang，并切换到分支wang（git checkout -b wang 不提倡使用，新版本提倡使用前者）
         git brach -d jia 删除分支
+        git brach -D jia 强行删除分支
+        
   合并分支
       
         git merge dev
