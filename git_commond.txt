@@ -53,6 +53,8 @@
         
         git stash   历史储藏  
         
+        git stash list 查看储藏区commit_id的list
+        
         git cherry-pick [commit_id] 复制一个特定的提交到当前分支
             	
 	
