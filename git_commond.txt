@@ -71,3 +71,9 @@
         2、在本地工作区重新拉取代码 ，git pull。相当于拉取远程分支信息
         3、执行 git checkout -b dev origin/dev
        
+       
+       
+       
+  出现输入界面后 直接ESC  然后:wq 回车
+  
+  git log --graph --pretty=oneline --abbrev-commit 查看提交分支     
