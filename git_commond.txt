@@ -59,4 +59,10 @@
         
         git cherry-pick [commit_id] 复制一个特定的提交到当前分支
             	
-	
+  远程分支 
+        
+        切换远程分支连接
+        1、首先在远程仓库中创建分支,例如：dev
+        2、在本地工作区重新拉取代码 ，git pull。相当于拉取远程分支信息
+        3、执行 git checkout -b dev origin/dev
+       
