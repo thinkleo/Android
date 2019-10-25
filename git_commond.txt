@@ -52,5 +52,7 @@
         git merge dev
         
         git stash   历史储藏  
+        
+        git cherry-pick [commit_id] 复制一个特定的提交到当前分支
             	
 	
