@@ -57,6 +57,8 @@
         
         git stash list 查看储藏区commit_id的list
         
+        git stash apply {stash_id} 
+        
         git cherry-pick [commit_id] 复制一个特定的提交到当前分支
         
    远程分支
