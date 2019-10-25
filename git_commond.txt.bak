@@ -58,10 +58,5 @@
         git stash list 查看储藏区commit_id的list
         
         git cherry-pick [commit_id] 复制一个特定的提交到当前分支
-        
-   远程分支
-   
-        git remote 查看远程分支
-        git remote -v 查看远程连接库信息
             	
 	
